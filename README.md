@@ -59,4 +59,4 @@ This repository is created for my senior project which is a 40-hour-long interns
 5. Finish the hotfix. ```git glow hotfix finish 1.0.1```
 6. ```git push```
 
-# Above basically the steps I've taken to create a new repository with features, releases, and hotfix. :smile: :smile: :smile:
+# Above are basically the steps I've taken to create a new repository with feature, release, and hotfix. :smile: :smile: :smile:
