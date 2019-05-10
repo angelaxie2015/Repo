@@ -50,7 +50,7 @@ This repository is created for my senior project which is a 40-hour-long interns
 9. Check on Github, you should have a release now. 
 
 ## Step Five
-### working on Hotfix
+### Working on Hotfix
 *Now assume that there has been a problem with the hola.py file and you need to add a second line to it, performing the hotfix.*
 1. Initiate hotfix. ```git flow hotfix start 0.1.1```
 2. Edit the file. ```nano hola.py```
