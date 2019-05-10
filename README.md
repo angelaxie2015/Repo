@@ -41,22 +41,22 @@ This repository is created for my senior project which is a 40-hour-long interns
 1. On Github, request a pull request to merge the feature into the master branch, preparing for release. 
 2. Once the pull request is accepted, perform the release
 3. ```git checkout master && git pull && git checkout develop && git pull && git fetch --tags && git tag```
-4. ```git flow release start 1.0.0```
+4. ```git flow release start 0.1.0```
 5. Edit the CHANGELOG to show the release. ```nano CHANGELOG```
-	* ```# [1.0.0] - 2019-05-10``` second line: ```## Added``` Third line ```* Hola feautre```
+	* ```# [0.1.0] - 2019-05-10``` second line: ```## Added``` Third line ```* Hola feautre```
 6. Add and commit the changes. ```git add CHANGELOG``` ```git commit -m "add changes to CHANGELOG for release"```
-7. ```git flow release finish 1.0.0```
+7. ```git flow release finish 0.1.0```
 8. ```git push && git checkout master && git push && git push --tags && git checkout develop```
 9. Check on Github, you should have a release now. 
 
 ## Step Five
 ### working on Hotfix
 *Now assume that there has been a problem with the hola.py file and you need to add a second line to it, performing the hotfix.*
-1. Initiate hotfix. ```git flow hotfix start 1.0.1```
+1. Initiate hotfix. ```git flow hotfix start 0.1.1```
 2. Edit the file. ```nano hola.py```
 3. On the third line of the file, add ```print ("That's hello in spanish")```
 4. Add and commit the modification. ```git add hola.py``` and ```git commit -m "add a second string to hola to fix bug X"```
-5. Finish the hotfix. ```git glow hotfix finish 1.0.1```
+5. Finish the hotfix. ```git glow hotfix finish 0.1.1```
 6. ```git push```
 
-# Above are basically the steps I've taken to create a new repository with feature, release, and hotfix. :smile: :smile: :smile:
+# Above are basically the steps I've taken to create a new repository with feature, release, and hotfix. :blush: :blush: :blush:
