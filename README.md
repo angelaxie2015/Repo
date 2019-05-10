@@ -24,5 +24,14 @@ This repository is created for my senior project which is a 40-hour-long interns
 
 ## Step Three
 ### Working in the develop branch and the feature branch. Add a new feature to the product. 
-
+1. Install git flow in Terminal if you don't have one already: ```brew install git-flow```
+2. Initiate git-flow: ```git flow init```
+3. Create a develop branch: ```git checkout -b develop``` and push the branch into the remote repository ```git push --set-upstream origin develop```
+4. Set the develop branch as the upstream branch: ```git branch --set-upstream-to=origin/develop develop```
+5. Start the feature branch: ```git flow feature start [NameOfFeature]```. In my case NameOfFeature is __hola__
+6. Edit the feature branch by adding an "hola.py": ```touch hola.py```, ```nano hola.py```
+7. Edit the output in nano: 
+ * ```#This is my hola program
+ *    print ("¡Hola!")```
+ 
 
