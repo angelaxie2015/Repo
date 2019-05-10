@@ -19,5 +19,10 @@ This repository is created for my senior project which is a 40-hour-long interns
 	* c. Create the AUTHORS file and the CHANGELOG file: ```touch AUTHORS``` and ```touch CHANGELOG```
 	* d. Edit the files using nano: ```nano AUTHORS``` and ```nano CHANGELOG``` use __Ctrl-O and Ctrl-X__ to quit nano. 
 	* e. Add and commit the changes: ```git add AUTHORS``` ```git commit -m "add AUTHORS file"``` and ```git add CHANGELOG``` ```git commit -m "add CHANGELOG file"```
+	* f. Push the changes into the remote repository: ```git push```
+4. View the results on Github. You should notice that two more files named CHANGELOG and AUTHORS are created. 
+
+## Step Three
+### Working in the develop branch and the feature branch. Add a new feature to the product. 
 
 
