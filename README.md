@@ -33,7 +33,24 @@ This repository is created for my senior project which is a 40-hour-long interns
 7. Edit the output in nano: ```#This is my hola program.``` and on the second line ```Print ("Hola")```
 8. When inputting ```python hola.py```, note that __Hola__ will be the output. 
 9. Add and commit the changes. ```git add hola.py``` and ```git commit -m "add strings to file hola"```
-10. Push the feature into the repository. ```git push```
+10. Finish the feature branch. ```git flow feature finish [NameOfFeature]```
+11. Push the feature into the repository. ```git push```
+
+## Step Four
+### Release with the new feature
+1. On Github, request a pull request to merge the feature into the master branch, preparing for release. 
+2. Once the pull request is accepted, perform the release
+3. ```git checkout master && git pull && git checkout develop && git pull && git fetch --tags && git tag```
+4. ```git flow release start 1.0.0```
+5. Edit the CHANGELOG to show the release. ```nano CHANGELOG```
+	* ```# [#.#.#] - 20xx-xx-xx``` second line: ```## Added``` Third line ```* Hola feautre```
+
+
+
+## Step Five
+### working on Hotfix
+*Now assume that there has been a problem with the hola.py file and you need to add a second line to it, performing the hotfix.*
+1. 
        
 
 
