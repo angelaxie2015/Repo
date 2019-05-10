@@ -14,9 +14,9 @@ This repository is created for my senior project which is a 40-hour-long interns
 1. Clone the ropository. 
 2. Open up Terminal. 
 3. Within your Terminal:
-   a. Clone the repository into your terminal: ```git clone``` + paste the repository cloned.
-   b. Go in to the repository file: ```cd``` + name of repository cloned. 
-   c. Create the AUTHORS file and the CHANGELOG file: ```touch AUTHORS``` and ```touch CHANGELOG```
-   d. Edit the files using nano: ```nano AUTHORS``` and ```nano CHANGELOG``` use __Ctrl-O and Ctrl-X__ to quit nano. 
-   
+	* Item 2a Clone the repository into your terminal: ```git clone``` + paste the repository cloned.
+	* Item 2b Go in to the repository file: ```cd``` + name of repository cloned. 
+	* Item 2c Create the AUTHORS file and the CHANGELOG file: ```touch AUTHORS``` and ```touch CHANGELOG```
+	* Item 2d. Edit the files using nano: ```nano AUTHORS``` and ```nano CHANGELOG``` use __Ctrl-O and Ctrl-X__ to quit nano. 
+
 
