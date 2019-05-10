@@ -30,9 +30,10 @@ This repository is created for my senior project which is a 40-hour-long interns
 4. Set the develop branch as the upstream branch: ```git branch --set-upstream-to=origin/develop develop```
 5. Start the feature branch: ```git flow feature start [NameOfFeature]```. In my case NameOfFeature is __hola__
 6. Edit the feature branch by adding an "hola.py": ```touch hola.py```, ```nano hola.py```
-7. Edit the output in nano: 
-  * ```#This is my hola program.```
-  * ```Print ("¡Hola!")
+7. Edit the output in nano: ```#This is my hola program.``` and on the second line ```Print ("Hola")```
+8. When inputting ```python hola.py```, note that __Hola__ will be the output. 
+9. Add and commit the changes. ```git add hola.py``` and ```git commit -m "add strings to file hola"```
+10. Push the feature into the repository. ```git push```
        
 
 
