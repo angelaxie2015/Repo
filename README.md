@@ -1,4 +1,4 @@
-# Senior Project
+# Senior Project :blush: :blush:
 This repository is created for my senior project which is a 40-hour-long internship with the CTS-IT group at UF. In this repository, I will demonstrate the steps I've used in creating branches and developments through the gitflow workflow. 
 
 ## Step One
@@ -43,9 +43,11 @@ This repository is created for my senior project which is a 40-hour-long interns
 3. ```git checkout master && git pull && git checkout develop && git pull && git fetch --tags && git tag```
 4. ```git flow release start 1.0.0```
 5. Edit the CHANGELOG to show the release. ```nano CHANGELOG```
-	* ```# [#.#.#] - 20xx-xx-xx``` second line: ```## Added``` Third line ```* Hola feautre```
-
-
+	* ```# [1.0.0] - 2019-05-10``` second line: ```## Added``` Third line ```* Hola feautre```
+6. Add and commit the changes. ```git add CHANGELOG``` ```git commit -m "add changes to CHANGELOG for release"```
+7. ```git flow release finish 1.0.0```
+8. ```git push && git checkout master && git push && git push --tags && git checkout develop```
+9. Check on Github, you should have a release now. 
 
 ## Step Five
 ### working on Hotfix
