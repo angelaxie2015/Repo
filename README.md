@@ -14,7 +14,9 @@ This repository is created for my senior project which is a 40-hour-long interns
 1. Clone the ropository. 
 2. Open up Terminal. 
 3. Within your Terminal:
-> __git clone__ + paste the repository cloned.
+```__git clone__ + paste the repository cloned.
 __cd__ + NameOfDirectory cloned. 
 __touch AUTHORS__
 __touch CHANGELOG__
+```
+
