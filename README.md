@@ -54,7 +54,7 @@ This repository is created for my senior project which is a 40-hour-long interns
 *Now assume that there has been a problem with the hola.py file and you need to add a second line to it, performing the hotfix.*
 1. Initiate hotfix. ```git flow hotfix start 0.1.1```
 2. Edit the file. ```nano hola.py```
-3. On the third line of the file, add ```print ("That's hello in spanish")```
+3. On the third line of the file, add ```print ("Senior project")```
 4. Add and commit the modification. ```git add hola.py``` and ```git commit -m "add a second string to hola to fix bug X"```
 5. Finish the hotfix. ```git glow hotfix finish 0.1.1```
 6. ```git push```
