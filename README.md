@@ -32,6 +32,6 @@ This repository is created for my senior project which is a 40-hour-long interns
 6. Edit the feature branch by adding an "hola.py": ```touch hola.py```, ```nano hola.py```
 7. Edit the output in nano: 
  * ```#This is my hola program
- *    print ("¡Hola!")```
- 
+      print ("¡Hola!")```
+
 
